@@ -76,6 +76,9 @@ var o = ns;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`rfftf( arrays )`][@stdlib/fft/base/fftpack/ndarray/float32/rfftf]</span><span class="delimiter">: </span><span class="description">compute the forward discrete Fourier transform (DFT) of a real-valued one-dimensional single-precision floating-point ndarray.</span>
+-   <span class="signature">[`rffti( arrays )`][@stdlib/fft/base/fftpack/ndarray/float32/rffti]</span><span class="delimiter">: </span><span class="description">initialize a workspace array for performing a real-valued Fourier transform on a one-dimensional single-precision floating-point ndarray.</span>
+
 </div>
 
 <!-- </toc> -->
@@ -184,6 +187,10 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/fft-base-fftpack-ndarray-float32/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/fft/base/fftpack/ndarray/float32/rfftf]: https://github.com/stdlib-js/fft-base-fftpack-ndarray-float32-rfftf
+
+[@stdlib/fft/base/fftpack/ndarray/float32/rffti]: https://github.com/stdlib-js/fft-base-fftpack-ndarray-float32-rffti
 
 <!-- </toc-links> -->
 
