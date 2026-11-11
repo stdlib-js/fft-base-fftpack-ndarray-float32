@@ -1,3 +1,44 @@
-"use strict";var e=require('@stdlib/utils-define-read-only-property/dist'),r={};e(r,"rfftf",require('@stdlib/fft-base-fftpack-ndarray-float32-rfftf/dist'));e(r,"rffti",require('@stdlib/fft-base-fftpack-ndarray-float32-rffti/dist'));module.exports=r;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/*
+* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
+*/
+
+// MODULES //
+
+var setReadOnly = require( '@stdlib/utils-define-read-only-property/dist' );
+
+
+// MAIN //
+
+/**
+* Top-level namespace.
+*
+* @namespace ns
+*/
+var ns = {};
+
+/**
+* @name rfftf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/fft/base/fftpack/ndarray/float32/rfftf}
+*/
+setReadOnly( ns, 'rfftf', require( '@stdlib/fft-base-fftpack-ndarray-float32-rfftf/dist' ) );
+
+/**
+* @name rffti
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/fft/base/fftpack/ndarray/float32/rffti}
+*/
+setReadOnly( ns, 'rffti', require( '@stdlib/fft-base-fftpack-ndarray-float32-rffti/dist' ) );
+
+
+// EXPORTS //
+
+module.exports = ns;
